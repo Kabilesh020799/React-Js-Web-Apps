@@ -1,0 +1,33 @@
+.calc {
+  margin-top: 100px;
+}
+.calc__input {
+  height: 300px;
+  width: 600px;
+}
+.calc__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgrey;
+  width: 650px;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+}
+.calc__btn {
+  background-color: lime;
+  width: 600px;
+  border-radius: 40px;
+  border: none;
+}
+.calc__btn:active,
+.calc__btn:hover {
+  border: none;
+}
+.calc__result {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+}
