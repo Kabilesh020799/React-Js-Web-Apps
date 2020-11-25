@@ -1,0 +1,33 @@
+.App {
+  height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app__form {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 90%;
+}
+.app__formInput {
+  width: 35rem;
+  border: none;
+  border-radius: 20px;
+  height: 2rem;
+}
+.app__formSubmit {
+  background-color: limegreen;
+  border: none;
+  border-radius: 20px;
+  height: 2rem;
+  width: 5rem;
+  outline: none;
+}
+.app__formSubmit:hover {
+  cursor: pointer;
+}
