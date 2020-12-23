@@ -1,0 +1,83 @@
+.pricecard {
+  border: 1px solid #f3f4f5;
+  width: 480px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 15px;
+}
+.pricecard__recommend {
+  background: #ef9e48;
+  margin-left: 30px;
+  width: 118px;
+  height: 31px;
+  border-radius: 3px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: white;
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricecard__head {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.pricecard__subhead {
+  font-size: 16px;
+  line-height: 35px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  margin-left: 30px;
+}
+.pricecard__left {
+  margin-top: 60px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-right: 40px;
+}
+.left__price {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  color: #25cb9e;
+}
+.pricecard__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.pricecard__items {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.pricecard__item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.pricecard__itemTitle {
+  width: 90%;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 20px;
+}
+.pricecard:hover {
+  border: 2.5px solid #3fdbb1;
+}

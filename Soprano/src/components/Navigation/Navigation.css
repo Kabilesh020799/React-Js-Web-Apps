@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+.nav__list2 {
+  flex: 0.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav__list3 {
+  flex: 0.15;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav__ele {
+  cursor: pointer;
+}
+.nav__ele:hover {
+  color: #ef6666;
+}

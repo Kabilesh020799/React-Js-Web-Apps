@@ -1,0 +1,26 @@
+.quality {
+  min-height: 70vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  margin-top: 60px;
+}
+.quality__header {
+  flex: 0.1;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+  color: #ce66ef;
+  font-size: 12px;
+}
+.quality__header1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

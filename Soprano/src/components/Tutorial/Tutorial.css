@@ -1,0 +1,53 @@
+.tutorial {
+  min-height: 85vh;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.tutorial__right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tutorial__right_head {
+  margin-top: 60px;
+  color: #ce66ef;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  font-size: 14px;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+.tutorial__right_subhead {
+  font-size: 48px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  line-height: 55px;
+  width: 55%;
+  text-align: left;
+}
+.tutorial__right_content {
+  font-family: "DM Dans";
+  font-size: 18px;
+  line-height: 42px;
+  width: 55%;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.tutorial__right_btn {
+  background-color: #e20000;
+  width: 603px;
+  height: 110px;
+  border-radius: 200px;
+  font-size: 90px;
+  color: white;
+  font-weight: bold;
+  font-family: "DM Sans";
+  margin-top: 40px;
+}
