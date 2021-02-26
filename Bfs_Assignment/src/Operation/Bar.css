@@ -1,0 +1,14 @@
+.bar {
+  width: 80px;
+  background-color: #d7ebff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar__inner {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  font-size: 30px;
+}
